@@ -1,0 +1,36 @@
+.page-footer {
+    background-color:#006064;
+    padding-left: 3rem; 
+    padding-right: 3rem; 
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .page-footer {
+    background-color:#006064;
+    padding-left: 3rem; 
+    padding-right: 3rem; 
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.social-link-button{
+    margin-bottom: 1rem;
+}
+
+.availability{
+    margin-bottom: 1rem;
+}
+
+.contact-me{
+    margin-bottom: 1rem;
+}
+
+.page-footer .fa{
+    color: #fff;
+    width: unset;
+    margin: 0; 
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+}
