@@ -4,11 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css'
-import Footer from "./components/footerComponent";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Footer/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

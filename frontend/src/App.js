@@ -1,10 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from "./components/footerComponent";
+import Navbar from "./components/navbarComponent";
+
+
 
 function App() {
   return (
-    <h1>hi</h1>
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
   );
 }
 

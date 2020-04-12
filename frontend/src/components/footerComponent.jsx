@@ -11,14 +11,21 @@ class Footer extends Component {
                 <div className="row">
                   <div className="col-md-6 mt-md-0 mt-3">
                     <h5 className="text-uppercase">About US</h5>
-                    <p></p>
+                    <ul className="list-unstyled">
+                      <li className="careers">
+                        <a href="">Careers</a>
+                      </li>
+                      <li className="company">
+                        <p>Company</p>                        
+                      </li>
+                    </ul>
                   </div>
                   <hr className="clearfix w-100 d-md-none pb-3"/>
                   <div className="col-md-3 mb-md-0 mb-3">
                     <h5 className="text-uppercase">Social Links</h5>
                     <ul className="list-unstyled">
                       <li className="social-link-button">
-                        <SocialIcon url="https://www.facebook.com/DorrianNPT/?__tn__=%2Cd%2CP-R&eid=ARC9y3Fg2oZfFvzJ73os1cFKuRg8pzbmR3Ap1HesLLgye-6EbAAOJpYEkpqfkQTwA1zxIX53pCunrNXB" network="facebook" style={{ height: 35, width: 35 }} fgColor="white"/>
+                        <SocialIcon url="https://www.facebook.com" network="facebook" style={{ height: 35, width: 35 }} fgColor="white"/>
                       </li>
                       <li className="social-link-button">
                         <SocialIcon url="http://twitter.com" network="twitter" style={{ height: 35, width: 35 }} fgColor="white"/>
